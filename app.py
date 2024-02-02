@@ -6,10 +6,10 @@ def echo_bot(user_input):
 
 # Streamlit app
 def main():
-    st.title("Conversational AI Demo")
+    st.title("Conversational AI on Structured Data")
 
     # Text input for user
-    user_input = st.text_input("You:", "")
+    user_input = st.text_input("User:", "")
 
     if st.button("Send"):
         # Process user input and get bot response
